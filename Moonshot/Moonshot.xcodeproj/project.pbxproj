@@ -29,9 +29,23 @@
 		BB4EDDCF2D399A4A00F11766 /* MoonshotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoonshotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BB4EDE062D399B3600F11766 /* Exceptions for "Moonshot" folder in "MoonshotTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				astronauts.json,
+				missions.json,
+			);
+			target = BB4EDDC42D399A4A00F11766 /* MoonshotTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		BB4EDDB72D399A4900F11766 /* Moonshot */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BB4EDE062D399B3600F11766 /* Exceptions for "Moonshot" folder in "MoonshotTests" target */,
+			);
 			path = Moonshot;
 			sourceTree = "<group>";
 		};

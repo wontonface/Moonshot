@@ -34,7 +34,11 @@ struct MissionView: View {
                     
                     Text("Launch date: \(mission.formattedLaunchDate)")
                     
+                    Divider()
+                    
                     Text(mission.description)
+                    
+                    Divider()
                     
                     Text("Crew")
                         .font(.title.bold())
